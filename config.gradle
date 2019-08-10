@@ -1,0 +1,23 @@
+//所有依赖库,都在这里
+ext {
+
+    android = [compileSdkVersion: 28,
+               buildToolsVersion: "28.0.3",
+               applicationId    : "com.app.code",
+               minSdkVersion    : 16,
+               targetSdkVersion : 26,
+               versionCode      : 1,
+               versionName      : "1.0.0",
+    ]
+    dependencies = [
+            //支持库 https://mvnrepository.com/
+            "support-v4"       : 'com.android.support:support-v4:28.0.0',
+            "appcompat-v7"     : 'com.android.support:appcompat-v7:28.0.0',
+            "recyclerview-v7"  : 'com.android.support:recyclerview-v7:28.0.0',
+            "constraint-layout": 'com.android.support.constraint:constraint-layout:1.1.3',
+            "annotations"      : 'com.android.support:support-annotations:28.0.0',
+            "design"           : 'com.android.support:design:28.0.0',
+            "okhttp"           : 'com.squareup.okhttp3:okhttp:4.0.1',
+    ]
+
+}
